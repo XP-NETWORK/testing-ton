@@ -1,0 +1,16 @@
+{
+  "name": "testing-ton",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/XP-NETWORK/testing-ton.git",
+  "author": "Dima Brook <dima@xp.network>",
+  "license": "MIT",
+  "scripts": {
+    "config": "tsc && node ./dist/config.js",
+    "list-nfts":"tsc && node ./dist/listing.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "xp.network": "git+https://github.com/xp-network/xpjs#bleeding-edge"
+  }
+}
